@@ -1,0 +1,8 @@
+{
+  "name": "Web Server with MySQL",
+  "dockerComposeFile": "../docker-compose.yml",
+  "service": "web",
+  "workspaceFolder": "/workspace",
+  "forwardPorts": [8080, 3307],
+  "postCreateCommand": "echo 'Setup complete!'"
+}
